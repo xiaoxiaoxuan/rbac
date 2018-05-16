@@ -1,0 +1,21 @@
+{
+    "name": "xiaoxuan/rbac",
+    "description": "rbac manage",
+    "license": "MIT",
+    "authors": [{
+        "name": "humingxuan",
+        "email": "13625270510@163.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "xiaoxuan\\": "src/"
+        }
+    }
+}
